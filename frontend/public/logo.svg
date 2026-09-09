@@ -1,0 +1,50 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M100 20 L160 50 L160 110 C160 155 100 180 100 180 C100 180 40 155 40 110 L40 50 Z" 
+        fill="none" stroke="#0066cc" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Doctor Head -->
+  <circle cx="100" cy="60" r="15" fill="#001f5c" stroke="#001f5c" stroke-width="2"/>
+  
+  <!-- Doctor Hat/Cap -->
+  <rect x="80" y="40" width="40" height="8" rx="2" fill="#001f5c"/>
+  <circle cx="100" cy="40" r="6" fill="#001f5c"/>
+  
+  <!-- White Cross on Cap -->
+  <line x1="98" y1="36" x2="102" y2="36" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <line x1="100" y1="34" x2="100" y2="38" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Stethoscope -->
+  <path d="M 75 75 Q 70 85 75 95" fill="none" stroke="#001f5c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 125 75 Q 130 85 125 95" fill="none" stroke="#0099ff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="75" cy="95" r="4" fill="#001f5c" stroke="#001f5c" stroke-width="1"/>
+  <circle cx="125" cy="95" r="4" fill="#0099ff" stroke="#0099ff" stroke-width="1"/>
+  
+  <!-- Doctor Body -->
+  <rect x="85" y="80" width="30" height="35" rx="3" fill="#001f5c"/>
+  
+  <!-- Tie -->
+  <rect x="98" y="75" width="4" height="25" fill="#001f5c"/>
+  <polygon points="95,80 105,80 103,88 97,88" fill="#001f5c"/>
+  
+  <!-- White Coat -->
+  <path d="M 80 85 L 120 85 L 125 95 L 75 95 Z" fill="white" stroke="#001f5c" stroke-width="2"/>
+  
+  <!-- Left Red Cross on chest -->
+  <g transform="translate(85, 75)">
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#cc3333"/>
+    <line x1="-4" y1="0" x2="4" y2="0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Right Red Cross on chest -->
+  <g transform="translate(115, 75)">
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#cc3333"/>
+    <line x1="-4" y1="0" x2="4" y2="0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Bottom Blue Banner -->
+  <path d="M 50 140 Q 100 155 150 140 L 150 160 Q 100 175 50 160 Z" 
+        fill="#0099ff" stroke="#0066cc" stroke-width="2"/>
+</svg>
